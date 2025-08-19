@@ -45,5 +45,6 @@ CLASS zcl_carga_tbl IMPLEMENTATION.
     if sy-subrc = 0.
      out->write( 'Registros Inseridos para tabela ZTBL_FUNCIONARIO' ).
     ENDIF.
+
   ENDMETHOD.
 ENDCLASS.
